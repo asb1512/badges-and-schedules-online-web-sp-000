@@ -2,13 +2,13 @@ def badge_maker(name)
   "Hello, my name is #{name}."
 end
 
-def batch_badge_creator(names)
+def batch_badge_creator(attendees)
   # new_names = []
   # names.each do |name|
   #   new_names << "Hello, my name is #{name}."
   # end
   # new_attendees
-  names.map{ |name| badge_maker(name) }
+  attendees.map{ |attendee| badge_maker(name) }
 end
 
 def assign_rooms(attendees)
